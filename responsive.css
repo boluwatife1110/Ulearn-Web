@@ -1,0 +1,223 @@
+@media screen and (max-width: 1500px) {
+  .contain {
+    max-width: 100%;
+  }
+  #hero-ctn {
+    padding: 10rem;
+  }
+}
+
+@media screen and (max-width: 14450px) {
+  #hero-textCtn {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  #hero-ctn {
+    padding: 5rem;
+  }
+  #top-img-ctn {
+    width: 50rem;
+  }
+ #footer-socials{
+ gap: 70rem; 
+ 
+}
+
+}
+
+@media screen and (max-width: 1350px) {
+  #hero-ctn {
+    padding: 10rem 2rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  #hero-Imgctn {
+    width: 45rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  #form-ctn {
+    width: 70%;
+  }
+  #contact-img-ctn{
+    display: none;
+  }
+#contact-section > div{
+  display: flex;
+  justify-content: center;
+}
+}
+  #top-img-ctn {
+    width: 40rem;
+  }
+
+  @media screen and (max-width: 1300px) {
+
+     #footer-socials{
+     gap: 50rem; 
+     justify-content: center;
+ 
+}
+#footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+   margin-bottom: 10.62rem;
+}
+    
+  }
+
+
+@media screen and (max-width: 1130px) {
+  #hero-textCtn h1 {
+    font-size: 6rem;
+  }
+       #footer-socials{
+     gap: 30rem; 
+     justify-content: center;
+ 
+}
+#footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+   margin-bottom: 10.62rem;
+}
+#courses-flex{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6.3rem;
+}
+#amount{
+  width: 40rem;
+  height: 16.49rem;
+  padding: 3rem;
+ 
+}
+}
+@media screen and (max-width:1010px) {
+    #footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+   margin-bottom: 10.62rem;
+}
+    
+}
+
+@media screen and (max-width: 968px) {
+.px-80{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+  #hero-Imgctn {
+    display: none;
+  }
+  #hero-textCtn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0rem 8rem; */
+  }
+  #hero-textCtn h1 {
+    text-align: center;
+  }
+  #top-img-ctn {
+    display: none;
+  }
+  #top-ctn h2 {
+    width: 100%;
+    text-align: center;
+  }
+  #bottom-ctn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+  }
+  .learning-cards {
+    width: 30rem;
+    text-align: center;
+  }
+  #footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+   margin-bottom: 10.62rem;
+}
+}
+@media screen and (max-width: 860px) {
+  #amount{
+  width: 30rem;
+  height: 16.49rem;
+  padding: 3rem;
+ 
+}
+  
+}
+@media screen and (max-width: 800px) {
+      #footer-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+   margin-bottom: 10.62rem;
+}
+}
+
+@media screen and (max-width: 780px) {
+    h2{
+        padding: 0rem 3.2;
+    }
+    #bottom-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-ctn {
+    width: 90%;
+  }
+}
+@media screen and (max-width:750px) {
+  .curses-info{
+    font-size: 2rem;
+  }
+  
+}
+@media screen and (max-width: 730px) {
+    #footer-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 500px);
+   margin-bottom: 10.62rem;
+   justify-content: center;
+   justify-items: center;
+   width: 100%;
+   text-align: center;
+}
+#footer-grid ul{
+   margin-bottom: 3rem;
+}
+}
+@media screen and (max-width: 680px) {
+           #footer-socials{
+     gap: 20rem; 
+     justify-content: center;
+ 
+}
+    
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    #hero-textCtn > p{
+        text-align: center;
+    }
+    #form-ctn {
+    width: 100%;
+  }
+}
