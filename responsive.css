@@ -17,9 +17,7 @@
   #hero-ctn {
     padding: 5rem;
   }
-  #top-img-ctn {
-    width: 50rem;
-  }
+
  #footer-socials{
  gap: 70rem; 
  
@@ -31,9 +29,7 @@
   #hero-ctn {
     padding: 10rem 2rem;
   }
-  h2 {
-    font-size: 4rem;
-  }
+  
   #hero-Imgctn {
     width: 45rem;
   }
@@ -44,17 +40,13 @@
   #form-ctn {
     width: 70%;
   }
-  #contact-img-ctn{
-    display: none;
-  }
+
 #contact-section > div{
   display: flex;
   justify-content: center;
 }
 }
-  #top-img-ctn {
-    width: 40rem;
-  }
+ 
 
   @media screen and (max-width: 1300px) {
 
@@ -81,6 +73,11 @@
      justify-content: center;
  
 }
+
+
+ #top-img-ctn {
+    width: 40rem;
+  }
 #footer-grid{
   display: grid;
   grid-template-columns: repeat(4, 220px);
@@ -104,6 +101,9 @@
   grid-template-columns: repeat(4, 200px);
    margin-bottom: 10.62rem;
 }
+  #top-img-ctn {
+    width: 50rem;
+  }
     
 }
 
@@ -154,6 +154,9 @@
   padding: 3rem;
  
 }
+  #contact-img-ctn{
+    display: none;
+  }
   
 }
 @media screen and (max-width: 800px) {
@@ -162,6 +165,11 @@
   grid-template-columns: repeat(4, 180px);
    margin-bottom: 10.62rem;
 }
+
+    form {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -213,11 +221,42 @@
     
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 460px) {
     #hero-textCtn > p{
         text-align: center;
     }
     #form-ctn {
     width: 100%;
   }
+    #footer-grid{
+
+   margin-bottom: 3.62rem;
+   
+}
+ #footer-socials{
+     gap: 5rem; 
+     justify-content: center;
+    
+ 
+}
+#course-date{
+  width: 14.86rem;
+}
+  .learning-cards {
+    width: 15rem;
+    text-align: center;
+    
+  }
+     #amount{
+  width: 35rem;
+  height: 16.49rem;
+  padding: 3rem;
+ 
+} 
+ #courses-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 6.3rem;
+}
 }

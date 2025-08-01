@@ -405,19 +405,53 @@ li{
 }
 #welcome-back-h2{
   font-size: 2.6rem;
+  margin-bottom: 6rem;
 }
 #f-n{
   color: var(--ulearn-green);
 }
 #harmburger-menu{
-  border: solid 1px red;
+   /* border: solid 1px red;   */
   color: black;
-  padding: 2rem 10.37rem 2rem 2rem;
-  align-items: right;
+  padding: 2rem 5rem 0rem 2rem;
+  width: 20.26rem;
+  height: 22.95rem;
+  box-shadow:  -0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  
  
 }
 
-#harmburger-menu li {
-  border: solid 1px red;
-  margin-bottom: 3rem;
+#harmburger-menu li  {
+  /* border: solid 1px red; */
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+div a {
+  color: var(--ulearn-green);
+}
+.slot{
+  font-size: 2.8rem;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-bottom: 3.9rem;
+}
+#home-s{
+  border-bottom: solid 3px #000;
+  
+}
+.courses-list{
+  /* background-color: var(--ulearn-sky-blue); */
+  padding: 3.9rem 0;
+}
+.courses-list > div{
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+#courses-footer{
+  margin-top: 50rem;
 }
