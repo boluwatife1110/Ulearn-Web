@@ -455,3 +455,31 @@ div a {
 #courses-footer{
   margin-top: 50rem;
 }
+
+
+/* Payment Page */
+
+.card{
+  width: 400px;
+  background-color: var(--ulearn-white);
+    padding: 2.4rem;
+  margin: 5rem auto;
+  border-radius: 10px;
+  border: solid 1px var(--ulearn-purple);
+  text-align: center;
+}
+.payment-type{
+  display: block;
+  background-color:var(--ulearn-green);
+  color: white;
+   padding: 2rem;
+   margin-top: 3rem;
+  border-radius: 1rem;
+  font-weight: 400;
+}
+
+#payment-header{
+  font-weight: 600;
+  margin-bottom: 6rem;
+  text-align: left;
+} 

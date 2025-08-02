@@ -146,6 +146,10 @@
   grid-template-columns: repeat(4, 200px);
    margin-bottom: 10.62rem;
 }
+.slot{
+  font-size: 2rem;
+  font-weight: 400;
+}
 }
 @media screen and (max-width: 860px) {
   #amount{
@@ -170,6 +174,15 @@
     display: flex;
     flex-direction: column;
   }
+  .slot{
+  font-size: 1.5rem;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-bottom: 3.9rem;
+}
 }
 
 @media screen and (max-width: 780px) {
@@ -204,12 +217,25 @@
 #footer-grid ul{
    margin-bottom: 3rem;
 }
+.slot{
+  font-size: 2rem;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
 }
 @media screen and (max-width: 680px) {
            #footer-socials{
      gap: 20rem; 
      justify-content: center;
  
+}
+#welcome-back-h2{
+  font-size: 2rem;
+  margin-bottom: 6rem;
 }
     
 }
@@ -218,9 +244,42 @@
     h2{
         font-size: 3rem;
     }
-    
-}
+    #courses-h2{
+      font-size: 2rem;
+      font-weight: 700;
+    }
 
+ #welcome-back{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 5rem;
+}
+}
+@media screen and (max-width: 530px) {
+#harmburger-menu{
+  display: none;
+}
+#welcome-back-h2{
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#courses-h2{
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+.slot{
+  font-size: 2rem;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+  
+}
 @media screen and (max-width: 460px) {
     #hero-textCtn > p{
         text-align: center;
