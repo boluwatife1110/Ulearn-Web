@@ -318,7 +318,7 @@ footer{
 #footer-grid{
   display: grid;
   grid-template-columns: repeat(4, 300px);
-   margin-bottom: 10.62rem;
+   margin-bottom: 5rem;
 }
 .footer-image{
   width: 10.24rem;
